@@ -57,7 +57,7 @@ if (document.getElementById("clothes") != undefined){
                 sukienka: 'dress',
                 okulary: 'glasses',
                 koszula: 'shirt',
-                krawat: 'suit',
+                krawat: 'tie',
                 bielizna: 'underwear',
                 sweter: 'jumper',
                 buty: 'shoes',
