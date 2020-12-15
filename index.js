@@ -115,7 +115,7 @@ polishInput.innerText = Object.keys(words)[i];
 button.addEventListener('click', () => {
 
     
-    if(englishInput.value == Object.values(words)[i]){
+    if(englishInput.value.toLowerCase() == Object.values(words)[i]){
         
         errorMsg.innerText = ``               
         
@@ -142,7 +142,7 @@ button.addEventListener('click', () => {
 document.addEventListener('keydown', () => {
 
     if (event.keyCode === 13){
-        if(englishInput.value == Object.values(words)[i]){
+        if(englishInput.value.toLowerCase() == Object.values(words)[i]){
         
             errorMsg.innerText = ``               
             
